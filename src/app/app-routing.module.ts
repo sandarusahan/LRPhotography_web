@@ -1,7 +1,10 @@
+import { PricingComponent } from './pricing/pricing.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"pricing", component:PricingComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
